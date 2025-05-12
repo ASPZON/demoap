@@ -1,25 +1,11 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  // Directly redirect to the desired URL
+  window.location.href = "https://drive.google.com/drive/folders/1-j-eUByzePJjpbKrtFvFQi6CR36RlNby";
+
+  return null; // No need to render anything since the user is redirected
 }
 
 export default App;
